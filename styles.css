@@ -25,22 +25,19 @@ font-family: 'Roboto', sans-serif;*/
   display: flex;
   background-color: #FFFFFF;
   flex-direction: row;
-  /*justify-content: space-around;
-  align-items: flex-start;*/
 }
 
 ul {
   list-style: none;
   display: flex;
-  /*flex-direction: row;*/
   align-items: center;
-
 }
 
 ul a {
   padding-right: 40px;
   text-transform: uppercase;
   color: #2B2F26;
+  display: flex;
 }
 
 .headlines{
@@ -51,6 +48,7 @@ ul a {
 
 #logo img {
   height: 50px;
+  margin-right: 230px;
 }
 
 body {
